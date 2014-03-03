@@ -2,6 +2,8 @@ development:
   adapter: postgresql
   encoding: unicode
   database: todo_spa_dev
+  host: localhost
+  port: 5432
   pool: 5
 
 # Warning: The database defined as "test" will be erased and
@@ -11,10 +13,14 @@ test:
   adapter: postgresql
   encoding: unicode
   database: todo_spa_test
+  host: localhost
+  port: 5432
   pool: 5
 
 production:
   adapter: postgresql
   encoding: unicode
   database: todo_spa
+  host: localhost
+  port: 5432
   pool: 5
